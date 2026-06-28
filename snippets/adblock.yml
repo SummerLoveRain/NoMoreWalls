@@ -6878,7 +6878,7 @@ payload:
 - DOMAIN-SUFFIX,minecraft-zh.gamepedia.com
 - DOMAIN-SUFFIX,minecraft.fandom.com
 - DOMAIN-SUFFIX,googletagmanager.com
-- DOMAIN-SUFFIX,xiaohongshu.com
+# - DOMAIN-SUFFIX,xiaohongshu.com
 - DOMAIN-SUFFIX,xhscdn.com
 - DOMAIN-SUFFIX,douban.com
 - DOMAIN-SUFFIX,doubanio.com

@@ -66,35 +66,35 @@ rule-providers:
     interval: 21600
     path: ./rule_providers/adblock.yml
     type: http
-    url: https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/adblock.yml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/adblock.yml
   direct:
     behavior: classical
     format: yaml
     interval: 86400
     path: ./rule_providers/direct.yml
     type: http
-    url: https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/direct.yml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/direct.yml
   malware:
     behavior: classical
     format: yaml
     interval: 86400
     path: ./rule_providers/malware.yml
     type: http
-    url: https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/malware.yml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/malware.yml
   proxy:
     behavior: classical
     format: yaml
     interval: 86400
     path: ./rule_providers/proxy.yml
     type: http
-    url: https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/proxy.yml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/proxy.yml
   region:
     behavior: classical
     format: yaml
     interval: 86400
     path: ./rule_providers/region.yml
     type: http
-    url: https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/region.yml
+    url: https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/region.yml
 rules:
 - DOMAIN-SUFFIX,googleapis.cn,DIRECT
 - DOMAIN,dl.google.com,❓ 疑似国内

@@ -28,7 +28,7 @@ proxy-providers:
   NoMoreWalls:
     type: http
     # 不用本项目的订阅可以把链接换掉
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.meta.yml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/nodes.meta.yml"
     interval: 3600  # 1 小时自动更新一次
     path: ./proxy_providers/NoMoreWalls.yml
     health-check:
@@ -98,35 +98,35 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule_providers/adblock.yml
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/adblock.yml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/adblock.yml"
     interval: 21600 # 6h
     format: yaml
   proxy:
     type: http
     behavior: classical
     path: ./rule_providers/proxy.yml
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/proxy.yml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/proxy.yml"
     interval: 86400 # 24h
     format: yaml
   direct:
     type: http
     behavior: classical
     path: ./rule_providers/direct.yml
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/direct.yml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/direct.yml"
     interval: 86400 # 24h
     format: yaml
   region:
     type: http
     behavior: classical
     path: ./rule_providers/region.yml
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/region.yml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/region.yml"
     interval: 86400 # 24h
     format: yaml
   malware:
     type: http
     behavior: classical
     path: ./rule_providers/malware.yml
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/malware.yml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/yangqh102/NoMoreWalls/master/snippets/malware.yml"
     interval: 86400 # 24h
     format: yaml
 
