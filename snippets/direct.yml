@@ -13,6 +13,9 @@ payload:
 - DOMAIN,fonts.googleapis.com
 - DOMAIN,safebrowsing.googleapis.com
 - DOMAIN-SUFFIX,xiaohongshu.com
+- DOMAIN-SUFFIX,xhscdn.com
+- DOMAIN-SUFFIX,douban.com
+- DOMAIN-SUFFIX,doubanio.com
 - DOMAIN-SUFFIX,cn
 - DOMAIN-KEYWORD,announce
 - DOMAIN-KEYWORD,torrent
