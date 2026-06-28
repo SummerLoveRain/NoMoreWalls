@@ -12,6 +12,7 @@ payload:
 - DOMAIN,redirector.gvt1.com
 - DOMAIN,fonts.googleapis.com
 - DOMAIN,safebrowsing.googleapis.com
+- DOMAIN-SUFFIX,xiaohongshu.com
 - DOMAIN-SUFFIX,cn
 - DOMAIN-KEYWORD,announce
 - DOMAIN-KEYWORD,torrent
