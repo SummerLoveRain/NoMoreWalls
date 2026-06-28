@@ -1177,10 +1177,10 @@ payload:
 - DOMAIN-SUFFIX,2g8lomzrb.com
 - DOMAIN-SUFFIX,v8j1rkai1.com
 - DOMAIN-SUFFIX,3pzqcv5hc5.com
-- DOMAIN-SUFFIX,ads-video-al.xhscdn.com
-- DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
-- DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
-- DOMAIN-SUFFIX,ads-img-al.xhscdn.com
+# - DOMAIN-SUFFIX,ads-video-al.xhscdn.com
+# - DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
+# - DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
+# - DOMAIN-SUFFIX,ads-img-al.xhscdn.com
 - DOMAIN-SUFFIX,deemainunh.com
 - DOMAIN-SUFFIX,coisj3nil.com
 - DOMAIN-SUFFIX,xu919zz2i.com
@@ -2267,7 +2267,7 @@ payload:
 - DOMAIN-SUFFIX,tjfskxz0t6.com
 - DOMAIN-SUFFIX,mrko3xiug.com
 - DOMAIN-SUFFIX,je3zdrcua.com
-- DOMAIN-SUFFIX,erebor.douban.com
+# - DOMAIN-SUFFIX,erebor.douban.com
 - DOMAIN-SUFFIX,tkll12150nb.com
 - DOMAIN-SUFFIX,ngfkrduait.com
 - DOMAIN-SUFFIX,jyiwnb82b.com
@@ -6878,6 +6878,6 @@ payload:
 - DOMAIN-SUFFIX,minecraft-zh.gamepedia.com
 - DOMAIN-SUFFIX,minecraft.fandom.com
 - DOMAIN-SUFFIX,googletagmanager.com
-- DOMAIN-SUFFIX,xhscdn.com
-- DOMAIN-SUFFIX,douban.com
-- DOMAIN-SUFFIX,doubanio.com
+# - DOMAIN-SUFFIX,xhscdn.com
+# - DOMAIN-SUFFIX,douban.com
+# - DOMAIN-SUFFIX,doubanio.com

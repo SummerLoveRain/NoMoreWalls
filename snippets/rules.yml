@@ -1238,10 +1238,10 @@ rules:
 - DOMAIN-SUFFIX,2g8lomzrb.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,v8j1rkai1.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,3pzqcv5hc5.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,ads-video-al.xhscdn.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,ads-img-qc.xhscdn.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,ads-video-qc.xhscdn.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,ads-img-al.xhscdn.com,⛔ 广告拦截
+- DOMAIN-SUFFIX,ads-video-al.xhscdn.com,DIRECT
+- DOMAIN-SUFFIX,ads-img-qc.xhscdn.com,DIRECT
+- DOMAIN-SUFFIX,ads-video-qc.xhscdn.com,DIRECT
+- DOMAIN-SUFFIX,ads-img-al.xhscdn.com,DIRECT
 - DOMAIN-SUFFIX,deemainunh.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,coisj3nil.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,xu919zz2i.com,⛔ 广告拦截
@@ -2328,7 +2328,7 @@ rules:
 - DOMAIN-SUFFIX,tjfskxz0t6.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,mrko3xiug.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,je3zdrcua.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,erebor.douban.com,⛔ 广告拦截
+- DOMAIN-SUFFIX,erebor.douban.com,DIRECT
 - DOMAIN-SUFFIX,tkll12150nb.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,ngfkrduait.com,⛔ 广告拦截
 - DOMAIN-SUFFIX,jyiwnb82b.com,⛔ 广告拦截
@@ -7000,9 +7000,9 @@ rules:
 - DOMAIN-SUFFIX,primevideo.com,🚀 选择代理
 - DOMAIN-SUFFIX,api.bilibili.com,🌐 突破锁区
 - DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
-- DOMAIN-SUFFIX,xhscdn.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截
+- DOMAIN-SUFFIX,xhscdn.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
 - DOMAIN-SUFFIX,luogu.com,🚀 选择代理
 - DOMAIN-SUFFIX,download.microsoft.com,🐟 漏网之鱼
 - DOMAIN-SUFFIX,blob.core.windows.net,🐟 漏网之鱼
