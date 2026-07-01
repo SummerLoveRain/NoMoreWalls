@@ -211,69 +211,23 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇫🇷FR_2|2.1MB/s
-  network: ws
-  password: humanity
+  name: 🇳🇱NL_2|2.1MB/s
+  network: tcp
+  password: LSS6HLnp7IeEEJUcox
   port: '443'
-  server: 104.18.152.97
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: nl-1.tr202607.com
+  skip-cert-verify: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|2.6MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 199.181.197.176
-  skip-cert-verify: false
-  sni: PioHosting.ir
+- client-fingerprint: chrome
+  name: 🇮🇪IE_1|2.1MB/s
+  network: tcp
+  password: t1k169n5zmvvwn96r9ft
+  port: '57452'
+  server: 146.70.90.195
+  skip-cert-verify: true
+  sni: api-yandex.maps.ru
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /MiTiVPN=fL
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|2.4MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 94.140.0.100
-  skip-cert-verify: false
-  sni: PioHosting.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /MiTiVPN=Usa
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳IN_1|2.2MB/s
-  port: 11971
-  server: board-02.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_5|3.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 15.237.138.120
-  type: ss
   udp: true
 - name: AE_speednode_0001
   network: ws
