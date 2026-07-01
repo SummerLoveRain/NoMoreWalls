@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: 🇫🇷FR_1|1.7MB/s
+  name: 🇫🇷FR_1|1.6MB/s
   network: xhttp
   port: '2087'
   server: mio2.game2lizard.com

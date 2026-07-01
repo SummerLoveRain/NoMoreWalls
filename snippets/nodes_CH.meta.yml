@@ -1,14 +1,14 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|1.7MB/s
+  name: 🇨🇭CH_1|1.5MB/s
   network: tcp
   port: '8443'
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
     short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.40
+  server: 45.195.137.173
   servername: storage.yandex.net
   tls: true
   type: vless

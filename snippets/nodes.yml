@@ -210,23 +210,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_2|2.2MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: PioHosting.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /MiTiVPN=Se
 - client-fingerprint: chrome
-  name: 🇳🇱NL_2|2.1MB/s
+  name: 🇳🇱NL_1|2.0MB/s
   network: tcp
   password: LSS6HLnp7IeEEJUcox
   port: '443'
   server: nl-1.tr202607.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇮🇪IE_1|2.1MB/s
-  network: tcp
-  password: t1k169n5zmvvwn96r9ft
-  port: '57452'
-  server: 146.70.90.195
-  skip-cert-verify: true
-  sni: api-yandex.maps.ru
   type: trojan
   udp: true
 - name: AE_speednode_0001
