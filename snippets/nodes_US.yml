@@ -23,23 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|2.2MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: PioHosting.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /MiTiVPN=Se
 - name: US_speednode_0063
   network: ws
   password: Mitivpn

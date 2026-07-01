@@ -50,32 +50,3 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.3MB/s
-  network: tcp
-  port: '2053'
-  reality-opts:
-    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
-    short-id: '!!str c0d1d1776fed0f6d'
-  server: ee-t2.vinnypuxtomoon.today
-  servername: ee-t2.vinnypuxtomoon.today
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1ee0c3d2-9c42-463f-8497-ee05f76b84e5
-  xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇩🇪DE_2|1.6MB/s
-  network: http
-  port: '8882'
-  server: 46.8.236.239
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  xudp: true

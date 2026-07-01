@@ -49,58 +49,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: US_speednode_0055
-  port: 14005
-  reality-opts:
-    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
-    short-id: '!!str 97a01dfaef'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇭🇰HK_2|1.5MB/s
-  network: tcp
-  port: 14008
-  reality-opts:
-    public-key: WQP0QFc9RlOg7TDAI2i_VNQEtFwB_5kE5AKykeIipm0
-    short-id: '!!str 8e5d94464f'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇭🇰HK_3|4.2MB/s
-  network: tcp
-  port: 14009
-  reality-opts:
-    public-key: CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw
-    short-id: '!!str 6a1a47'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-  xudp: true
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
