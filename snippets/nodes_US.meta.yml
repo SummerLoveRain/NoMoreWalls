@@ -31,96 +31,119 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸US_1|1.5MB/s
+  network: ws
+  port: 443
+  server: 104.16.253.69
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|1.6MB/s
+  network: ws
+  port: 443
+  server: 104.17.158.173
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
+  name: 🇺🇸US_3|1.7MB/s
+  network: ws
+  port: 443
+  server: 104.17.112.113
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
+  name: 🇺🇸US_4|2.2MB/s
+  network: ws
+  port: 443
+  server: 104.17.147.118
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
+  name: 🇺🇸US_5|2.5MB/s
+  network: ws
+  port: 443
+  server: 104.17.223.103
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|3.4MB/s
+  name: 🇺🇸US_6|2.4MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- encryption: none
-  name: 🇺🇸US_2|2.7MB/s
+- name: 🇺🇸US_7|2.2MB/s
   network: ws
   port: '8880'
-  server: 104.254.140.30
+  server: 172.64.88.251
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: vms.lifetime54.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    max-early-data: 2560
-    path: /
+      Host: nameless-poetry-12fb.8-0a2.workers.dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- encryption: none
-  name: 🇺🇸US_3|1.6MB/s
+- name: 🇺🇸US_8|2.4MB/s
   network: ws
   port: '8880'
-  server: 185.148.106.30
+  server: 104.16.107.139
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 37fce9ce-9fec-4f30-89a0-fbb1f6f33b3c
   ws-opts:
     headers:
-      Host: vms.lifetime54.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: ''
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_4|2.0MB/s
-  network: ws
-  port: '8080'
-  server: 198.41.215.140
-  servername: kourosh-asli-ncjeuv.kourosh-gnlroc.workers.dev
-  type: vless
-  udp: true
-  uuid: 764ce064-b6e7-4279-a014-4547883eee15
-  ws-opts:
-    headers:
-      Host: kourosh-asli-ncjeuv.kourosh-gnlroc.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /kouroshasli_panel
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_5|2.6MB/s
-  network: ws
-  port: '443'
-  server: 162.159.46.222
-  servername: racknerd.henso.wiki
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9fb8b6a8-5094-42e3-a949-26bc63551345
-  ws-opts:
-    headers:
-      Host: racknerd.henso.wiki
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+      Host: white-night-afee.419-acc.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /9fb8b6a8-5094-42e3-a949-26bc63551345-vless
-  xudp: true
-- name: 🇺🇸US_6|2.6MB/s
-  network: ws
-  port: '8880'
-  server: 104.16.8.66
-  type: vless
-  udp: true
-  uuid: 2f5c68d9-182f-4d8b-ab53-9358a04387b7
-  ws-opts:
-    headers:
-      Host: broad-truth-e988.258-217.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_7|2.8MB/s
+  name: 🇺🇸US_9|1.8MB/s
   network: ws
   port: '443'
   server: 170.114.45.6
