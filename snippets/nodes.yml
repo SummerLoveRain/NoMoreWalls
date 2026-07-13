@@ -210,8 +210,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰HK_2|5.2MB/s
+- grpc-opts:
+    grpc-service-name: zhs
+  name: 🇰🇷KR_1|1.9MB/s
+  network: grpc
+  password: c68526b9-f9e1-49a3-9711-e57d5c717563
+  port: 16335
+  server: dev.aoliuqu.press
+  skip-cert-verify: true
+  sni: dev.aoliuqu.press
+  type: trojan
+  udp: true
+- name: 🇭🇰HK_1|2.6MB/s
   network: tcp
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: '39001'
